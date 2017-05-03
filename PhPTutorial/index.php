@@ -47,5 +47,44 @@
     $names = array("Seb","Bebon");
     // Show array element [0 = first element of the array];
     echo $names[0];
-
 ?>
+
+<?php # Logical Operators
+    // Classic If
+    $nb1 = 1;
+    $nb2 = 2;
+    if ($nb2 > $nb1) {
+      echo $nb2. " is superior than ".$nb1;
+    }
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
