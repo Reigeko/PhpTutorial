@@ -49,12 +49,26 @@
     echo $names[0];
 ?>
 
-<?php # Logical Operators
-    // Classic If
+<?php # Lesson 12 - Logical Operators
+    // Classic If (n1 > n2) {then}
     $nb1 = 1;
     $nb2 = 2;
     if ($nb2 > $nb1) {
       echo $nb2. " is superior than ".$nb1;
+    }
+?>
+
+<?php #Lesson 14 - Switch
+    // Switch can do something different for different answer
+    $x = 1;
+    switch ($x) {
+      case '1':
+        echo "x is equal to 1.";
+        break;
+
+      default:
+        echo "default answer.";
+        break;
     }
 ?>
 
