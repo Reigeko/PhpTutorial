@@ -1,4 +1,3 @@
-<h3>Lesson 1 to 5 - Basics Debut </h3>
 <?php # Lesson 1 - 5
     // Write something on screen
     // You don't need quotation marks around numbers
@@ -17,7 +16,7 @@
     // You can add a string next the variable by adding a '.' then a string sentence
     echo $name. " is a genius!";
  ?>
-<h3> Lesson 6 - Internal Functions </h3>
+
  <?php # Lesson 6 - Internal Functions
     // Calculate the lenght of a String > strlen();
     // Can do it with str_word_count()
