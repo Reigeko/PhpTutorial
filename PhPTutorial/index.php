@@ -72,8 +72,10 @@
     }
 ?>
 
-
-
+<?php # Lesson 15 - Exercice Calculator
+    #include calculator.php;
+    include('calculator.php');
+?>
 
 
 
