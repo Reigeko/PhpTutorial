@@ -43,7 +43,7 @@
     // true = 1;
     // false = 0;
 
-    // Array
+    // Array - It's a bunch of variable into one variable
     $names = array("Seb","Bebon");
     // Show array element [0 = first element of the array];
     echo $names[0];
@@ -102,10 +102,13 @@
     }
 ?>
 
-
-
-
-
+<?php # Lesson 20 - For Each Loop
+    // Loop something for each element of an array
+    $array = array("Seb","Bebon","Bidou");
+    foreach ($array as $arrayElement) {
+      echo "My name is ".$arrayElement."<br>";
+    }
+?>
 
 
 
