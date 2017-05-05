@@ -128,7 +128,16 @@
     // See line 75 for an example.
 ?>
 
+<?php # Lesson 25 - Super Globals
+    // Can call a variable from everywhere even in a functions
+    // Shouldn't be used a lot
+    $x = 5;
+    function something () {
+      echo $GLOBALS['x']."<br>";
+    }
+    something();
 
+?>
 
 
 
