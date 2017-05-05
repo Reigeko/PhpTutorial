@@ -77,6 +77,14 @@
     include('calculator.php');
 ?>
 
+<?php # Lesson 17 - While Loop
+    $x = 1;
+    while ($x < 5) {
+      echo "Hi there!<br>";
+      $x++;
+    }
+?>
+
 
 
 
