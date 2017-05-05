@@ -77,14 +77,30 @@
     include('calculator.php');
 ?>
 
-<?php # Lesson 17 - While Loop
+<?php # Lesson 17 - While loop
+    // While (variable is under this condition) {do this until the variable is under the condition}
     $x = 1;
     while ($x < 5) {
-      echo "Hi there!<br>";
+      echo "Hi there While Loop!<br>";
       $x++;
     }
 ?>
 
+<?php # Lesson 18 - Do While loop
+    // Do {the instruction} while (the condition is true)
+    $x = 1;
+    do {
+      echo "hi there Do While!<br>";
+      $x++;
+    } while ($x <= 5);
+?>
+
+<?php # Lesson 19 - For loop
+    // Tell how many time we want to loop something
+    for ($x=0; $x <= 10; $x++) {
+      echo $x." - For loop<br>";
+    }
+?>
 
 
 
