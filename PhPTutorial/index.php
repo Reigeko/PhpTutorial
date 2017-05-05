@@ -43,7 +43,7 @@
     // true = 1;
     // false = 0;
 
-    // Array - It's a bunch of variable into one variable
+    // Array - It's a bunch of variables into one variable
     $names = array("Seb","Bebon");
     // Show array element [0 = first element of the array];
     echo $names[0];
@@ -110,7 +110,23 @@
     }
 ?>
 
+<?php # Lesson 22 - How to create functions
 
+    // Can be used a multiple time on many differents places on the website
+    function newCalc($x) {
+      $newNumber = $x * 0.75;
+      echo "Here is 75% of what you wrote : ".$newNumber."<br>";
+    }
+    $x = 100;
+    newCalc($x);
+    $a = 10;
+    newCalc($a);
+?>
+
+<?php # Lesson 23 - Include documents
+    // #include DocumentName.php
+    // See line 75 for an example.
+?>
 
 
 
